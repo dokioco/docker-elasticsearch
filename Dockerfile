@@ -13,3 +13,4 @@ RUN chmod 0444 /etc/elasticsearch/jvm.options /etc/elasticsearch/elasticsearch.y
 USER elasticsearch
 CMD "/usr/share/elasticsearch/bin/elasticsearch"
 
+LABEL org.opencontainers.image.source=https://github.com/dokioco/docker-elasticsearch
